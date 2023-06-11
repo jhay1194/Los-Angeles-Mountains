@@ -113,39 +113,13 @@
     color: #414f6b;
     font-size: 22.9px;
   }
-        /* Menu Mobile Sub Section */
-        .mobile-wrap-sticky {
-          display: none;
-          overflow: hidden;
-          position: relative;
-        }
-        
-        .mobile-wrap-sticky a {
-          color: #414f6b;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 12px;
-          display: block;
-        }
-        
-        .mobile-wrap-sticky a.iconSticky {
-          background-color: transparent;
-          color: #414f6b;
-          display: block;
-          position: static;
-          text-align: right;
-          right: 0;
-          top: 0;
-        }
-        
-        .mobile-wrap-sticky a:hover {
-          background-color: rgba(65, 79, 107, 0.5);
-          color: white;
-        }
-        /* End Menu Mobile Sub Section */
+
   /* End Hero Section */
 
   /* Stick Nav Section*/
+  .sticky-nav .head #menuMobileSticky {
+    display: none;
+  }
   .sticky-nav nav-item .container{
     max-width: 950px;
     margin: 0  auto;
@@ -183,6 +157,36 @@
       color: #414f6b;
       font-size: 23.9px;
   }
+          /* Menu Mobile Sub Section */
+          .mobile-wrap-sticky {
+            display: none;
+            overflow: hidden;
+            /* position: relative; */
+          }
+          
+          .mobile-wrap-sticky a {
+            color: #414f6b;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 12px;
+            display: block;
+          }
+          
+          .mobile-wrap-sticky a.iconSticky {
+            background-color: transparent;
+            color: #414f6b;
+            display: block;
+            /* position: static; */
+            text-align: right;
+            right: 0;
+            top: 0;
+          }
+          
+          .mobile-wrap-sticky a:hover {
+            background-color: rgba(65, 79, 107, 0.5);
+            color: white;
+          }
+          /* End Menu Mobile Sub Section */
   /* End Stick Nav Section*/
 
   /* History */
