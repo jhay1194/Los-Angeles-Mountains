@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Angeles Mountains</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b40661b832.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <nav-item id="navbar">  
+            <div class="head container">
+                <img class="logo" width="43.11" height="43.01"
+                viewBox="0 0 29 42" src="Assets/logo.svg">
+                <div class="menu">
+                    <a href="#01">01. HISTORY</a>
+                    <a href="#02">02. TEAM</a>
+                </div>
+                <div class="mobile-wrap">
+                    <a href="javascript:void(0);" class="icon" onclick="menuIcon()">
+                        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    </a>
+                    <div id="menuMobile">
+                        <a href="#01">01. HISTORY</a>
+                        <a href="#02">02. TEAM</a>
+                    </div>
+                </div>
+            </div>
+        </nav-item>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- Sticky Nav Section -->
+    <div class="sticky-nav">
+        <nav-item class="menu-sticky" id="navbar-sticky">  
+            <div class="head container">
+                    <img class="logo" width="43.11" height="43.01"
+                    viewBox="0 0 29 42" src="Assets/logo.svg">
+                <span>LOS ANGELES <br><span>MOUNTAINS</span></span>
+                <div class="menu">
+                    <a href="#01">01. HISTORY</a>
+                    <a href="#02">02. TEAM</a>
+                </div>
+                <div class="mobile-wrap-sticky">
+                    <a href="javascript:void(0);" class="iconSticky" onclick="menuIconSticky()">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <div id="menuMobileSticky">
+                        <a href="#01">01. HISTORY</a>
+                        <a href="#02">02. TEAM</a>
+                    </div>
+                </div>
+            </div>
+        </nav-item>
+    </div>
+    <!-- End Sticky Nav Section -->
+
+    <!-- History Section -->
+    <div class="history" id="01">
+        <div class="content container">
+            <span class="history-num">01.</span>
+            <span class="title">HISTORY</span>
+        </div>
+        <div class="p-wrap container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. </p> 
+        </div>
+    </div>
+    <!-- End History Section -->
+    
+    <!-- Carousel Section -->
+    <div class="carousel">
+        <div class="carousel-wrap container">
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="Assets/carousel-image-1.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="Assets/carousel-image-2.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="Assets/carousel-image-1.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="Assets/carousel-image-2.png" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+        </div>
+    </div>
+    <!-- End Carousel Section -->
+
+    <!-- Climb Section -->
+    <div class="climb" id="02">
+        <div class="content container">
+            <span class="climb-num">02.</span>
+            <span class="title">CLIMB</span>
+            <div class="p-wrap container">
+                <p>Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p> 
+            </div>
+        </div>
+    </div>
+    <div class="climb-tab">
+        <div class="tab-menu">
+            <div class="tab-menu-item">
+                <button onclick="mountain1Content()">Mountain 1</button>
+                <button onclick="mountain2Content()">Mountain 2</button>
+            </div>
+        </div>
+    </div>
+    <div class="climb-tab-content">
+        <div class="climb-content-container">
+            <div id="climbContent" class="climb-content-item tabcontent">
+                <div class="schedule-card">
+                    <div class="schedule">
+                        <h2>schedule</h2>
+                        <table class="center">
+                            <tr>
+                              <td id="cell1" class="date">25 Nov 2016</td>
+                              <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                              <td id="cell2" class="date">25 Nov 2016</td>
+                              <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                              <td id="cell3" class="date">18 Dec 2016</td>
+                              <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                              <td id="cell4" class="date">7 Jan 2017</td>
+                              <td>Vestibulum viverra</td>
+                            </tr>
+                          </table>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Climb Section -->
+    <footer>
+        <div class="footer">
+            <nav-item class="footer-sub">  
+                <div class="sub-content container">
+                    <div class="logo-wrap">
+                        <img class="logo" width="43.11" height="43.01"
+                            viewBox="0 0 29 42" src="Assets/logo.svg">
+                        <h1>LOS ANGELES <br><span>MOUNTAINS</span></h1>
+                    </div>
+                    <div class="copyright">
+                        copyright 2016. all rights reserved.
+                    </div>
+                </div>
+            </nav-item>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
